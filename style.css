@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.navbar-item {
+    padding: 100px;
+    padding-top: 100px;
+}
+
+.nav {
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+.navbar-item:hover {
+    background-color: violet;
+    color: thistle;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
